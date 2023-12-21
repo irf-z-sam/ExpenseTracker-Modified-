@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action = "">
+        <h1>Expenses Tracker</h1>
+        <label for="expenseamount">Choose expenseamount:</label>
+        <input type="number" name="expenseamount" required> </input>
+        <label for="description">Choose description:</label>
+        <input type="text" name="description" required> </input>
+        <label for="category">Choose a category:
+        <select id="category" name="category">
+            <option value="fuel">fuel</option>
+            <option value="food">food</option>
+            <option value="electricity">electricity</option>
+            <option value="Movie">Movie</option>
+        </select></label>
+        <button>Add Expense<button style = "float: right;" id="cAll">Clear All</button></button>
+    </form>
+    <div class="main">
+        <div class="items">
+            <span>&times;</span>
+            <h5>Expense</h5>
+            <div>0000</div>
+    
+            <h5>Description</h5>
+            <div>abc</div>
+    
+            <h5>Category</h5>
+            <div>abc</div>
+        </div>
+       </div>
+    <script src="index.js"></script>
+</body>
+</html>
