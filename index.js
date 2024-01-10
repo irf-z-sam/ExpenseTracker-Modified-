@@ -57,5 +57,4 @@ let removeData=(index)=>{
      localStorage.clear("userDetails");
      displayData();
  })
- 
  displayData();
